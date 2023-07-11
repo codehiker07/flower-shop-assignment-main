@@ -44,10 +44,10 @@
 .btn{
     font-size: larger;
     color: #ffffff;
-    padding: 20px 40px;
+    padding: 12px 20px;
     background: #E55473;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .hot-deal-container{
@@ -60,6 +60,7 @@
 }
 
 .title{
+    text-align: center;
     color: #272727;
     font-family: Lato;
     font-size: 40px;
@@ -83,8 +84,9 @@
 
 .para-ins{
     padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
-    color: #64535399;
+    color: #27272799;
     font-family: Lato;
     font-size: 18px;
     font-weight: 700;
@@ -97,7 +99,24 @@
     justify-content: space-around;
     margin-left: 230px;
     margin-right: 230px;
+}
 
+.deals{
     
+    margin: 60px;
+    padding: 60px;
+    background-image:url("images/Rectangle\ 9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
 
+}
+
+.input-opt{
+    width: 45%;
+    padding: 15px 25px;
+    margin: 10px 10px;
+    border: none;
+    border-radius: 5px;
 }

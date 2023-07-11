@@ -183,21 +183,46 @@ nav > ul{
 }
 
 .feature-box{
-    width: 1400px;
+    width:90% ;
     margin-top: 30px;
+    padding-left: 100px;
     gap: 30px;
     display: flex;
-    justify-content: center;
-    align-items: first baseline;
+    justify-content: baseline;
+    
+
     
 }
 
 .box-1{
     background-color: #A7216226;
+    border-radius: 200px 200px 0px 0px;
+    width: 400px;
+    padding-top: 80px;
+    align-items: center;
+
 }
 .box-2{
     background-color: #0597A026;
+    border-radius: 200px 200px 0px 0px;
+    width: 400px;
+    padding-top: 80px;
+    justify-items: center;
+
 }
 .box-3{
     background-color: #477D1126;
+    border-radius: 200px 200px 0px 0px;
+    width: 400px;
+    padding-top: 80px;
+    align-items: center;
+
+}
+
+.pink{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    font-size: 14px;
+    text-decoration: underline;
 }

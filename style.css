@@ -135,10 +135,36 @@
 }
 #foo{
     padding: 20px;
-
     line-height: 25px;
+}
+#shop{
+    color: #ffffff;
 }
 
 .copy-item{
     color: #FFFFFF66;
+}
+
+.featured-content{
+    margin: 80px 230px;
+}
+
+.feature-box{
+    width: 1400px;
+    margin-top: 30px;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: first baseline;
+    
+}
+
+.box-1{
+    background-color: #A7216226;
+}
+.box-2{
+    background-color: #0597A026;
+}
+.box-3{
+    background-color: #477D1126;
 }
